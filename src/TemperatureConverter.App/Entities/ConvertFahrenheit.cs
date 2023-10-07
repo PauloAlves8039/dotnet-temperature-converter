@@ -15,7 +15,7 @@ namespace TemperatureConverter.App.Entities
         public double ConvertFahrenheitToCelsius() 
         {
             var celsius = (Fahrenheit - 32) * 5 / 9;
-            return Math.Round(celsius);
+            return Math.Round(celsius, 2);
         }
 
         public double ConvertFahrenheitToKelvin() 
